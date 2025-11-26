@@ -1,0 +1,51 @@
+observation_code,observation_name
+OBS001,Pulmonary nodule presence
+OBS002,Pulmonary nodule count
+OBS003,Nodule calcification
+OBS004,Pulmonary mass presence  
+OBS005,Mass cavitation
+OBS006,Mass necrosis
+OBS007,Pleural effusion presence
+OBS008,Pleural effusion side
+OBS009,Pleural effusion loculated
+OBS010,Liver lesion presence
+OBS011,Liver lesion count
+OBS012,Liver lesion segment
+OBS013,Ascites presence
+OBS014,Lymphadenopathy presence
+OBS015,Mediastinal lymphadenopathy
+OBS016,Pneumothorax presence
+OBS017,Bone lesion presence
+OBS018,Bone lesion count
+OBS019,Fracture presence
+OBS020,Bone lesion location
+OBS021,Contrast administered
+OBS022,Motion artifacts present
+OBS023,Image quality assessment
+OBS024,Scan type performed
+OBS025,Clinical indication
+OBS026,Primary diagnosis
+OBS027,Overall impression
+OBS028,Recommended followup
+OBS029,Radiologist confidence
+OBS030,Nodule morphology
+OBS031,Mass morphology
+OBS032,Liver lesion morphology
+OBS033,Nodule location side
+OBS034,Mass location side
+OBS035,Liver lesion location side
+OBS036,Nodule contrast enhancement
+OBS037,Mass contrast enhancement
+OBS038,Liver lesion contrast enhancement
+OBS039,Nodule tumor type
+OBS040,Mass tumor type
+OBS041,Liver lesion tumor type
+OBS042,Bone lesion tumor type
+OBS043,Nodule severity
+OBS044,Mass severity
+OBS045,Pleural effusion severity
+OBS046,Ascites severity
+OBS047,Nodule size qualitative
+OBS048,Mass size qualitative
+OBS049,Liver lesion size qualitative
+OBS050,Reconstruction algorithm

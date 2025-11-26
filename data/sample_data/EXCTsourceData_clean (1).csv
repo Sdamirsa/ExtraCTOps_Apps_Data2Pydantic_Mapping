@@ -1,0 +1,126 @@
+EXCTsourceData_variableID,EXCTsourceData_variableName,EXCTsourceData_variableValue,EXCTsourceData_variableUnit,source_file,source_type,original_patient_id,original_scan_date
+MEAS001,Largest nodule size,8.5,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS001,Largest nodule size,4.2,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS002,Nodule size dimension 1,6.2,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS002,Nodule size dimension 1,3.8,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS003,Nodule size dimension 2,7.8,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS003,Nodule size dimension 2,4.5,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS004,Mass size dimension 1,45.2,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS005,Mass size dimension 2,38.7,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS006,Mass size dimension 3,52.1,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS007,Pleural effusion volume estimate,150.0,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS007,Pleural effusion volume estimate,450.0,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS008,Largest lymph node size,12.3,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS008,Largest lymph node size,18.9,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS009,Liver lesion size,23.4,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS010,Liver lesion dimension 1,21.8,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS011,Liver lesion dimension 2,25.6,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS012,Patient age at scan,67.0,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS012,Patient age at scan,58.0,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS012,Patient age at scan,72.0,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS013,CT slice thickness,1.25,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS013,CT slice thickness,0.625,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS013,CT slice thickness,1.25,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS014,Radiologist confidence score,0.85,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS014,Radiologist confidence score,0.95,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS014,Radiologist confidence score,0.92,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS015,Nodule contrast value,45.0,,ct_measurements.csv,unknown,PAT001,2024-01-15
+MEAS015,Nodule contrast value,15.0,,ct_measurements.csv,unknown,PAT003,2024-01-25
+MEAS016,Mass contrast value,125.0,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS017,Liver lesion contrast value,180.0,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS018,Bone lesion size,15.2,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS019,Bone lesion dimension 1,14.8,,ct_measurements.csv,unknown,PAT002,2024-01-20
+MEAS020,Bone lesion dimension 2,16.7,,ct_measurements.csv,unknown,PAT002,2024-01-20
+OBS001,Pulmonary nodule presence,Present,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS001,Pulmonary nodule presence,Absent,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS001,Pulmonary nodule presence,Present,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS002,Pulmonary nodule count,3,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS002,Pulmonary nodule count,1,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS003,Nodule calcification,No,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS003,Nodule calcification,Yes,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS004,Pulmonary mass presence  ,Absent,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS004,Pulmonary mass presence  ,Present,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS004,Pulmonary mass presence  ,Absent,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS005,Mass cavitation,Yes,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS006,Mass necrosis,Yes,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS007,Pleural effusion presence,Present,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS007,Pleural effusion presence,Present,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS007,Pleural effusion presence,Absent,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS008,Pleural effusion side,Right,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS008,Pleural effusion side,Left,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS009,Pleural effusion loculated,No,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS009,Pleural effusion loculated,Yes,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS010,Liver lesion presence,Absent,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS010,Liver lesion presence,Present,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS010,Liver lesion presence,Absent,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS011,Liver lesion count,2,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS012,Liver lesion segment,Segment 4,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS013,Ascites presence,No,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS013,Ascites presence,Yes,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS013,Ascites presence,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS014,Lymphadenopathy presence,Yes,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS014,Lymphadenopathy presence,Yes,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS014,Lymphadenopathy presence,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS015,Mediastinal lymphadenopathy,Yes,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS015,Mediastinal lymphadenopathy,No,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS015,Mediastinal lymphadenopathy,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS016,Pneumothorax presence,No,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS016,Pneumothorax presence,No,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS016,Pneumothorax presence,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS017,Bone lesion presence,Absent,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS017,Bone lesion presence,Present,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS017,Bone lesion presence,Absent,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS018,Bone lesion count,1,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS019,Fracture presence,No,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS019,Fracture presence,No,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS019,Fracture presence,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS020,Bone lesion location,L3 vertebral body,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS021,Contrast administered,Yes,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS021,Contrast administered,Yes,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS021,Contrast administered,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS022,Motion artifacts present,No,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS022,Motion artifacts present,No,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS022,Motion artifacts present,No,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS023,Image quality assessment,Good,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS023,Image quality assessment,Excellent,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS023,Image quality assessment,Good,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS024,Scan type performed,Chest CT with contrast,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS024,Scan type performed,Chest abdomen pelvis CT,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS024,Scan type performed,Chest CT without contrast,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS025,Clinical indication,Follow-up lung nodules,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS025,Clinical indication,Staging workup for lung cancer,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS025,Clinical indication,Routine screening,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS026,Primary diagnosis,Multiple pulmonary nodules,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS026,Primary diagnosis,Lung adenocarcinoma with metastases,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS026,Primary diagnosis,Benign pulmonary nodule,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS027,Overall impression,Multiple small pulmonary nodules consistent with metastatic disease,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS027,Overall impression,Primary lung mass with hepatic and osseous metastases,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS027,Overall impression,Single calcified nodule likely benign granuloma,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS028,Recommended followup,Follow-up in 3 months,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS028,Recommended followup,Oncology referral urgent,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS028,Recommended followup,Annual follow-up,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS033,Nodule location side,Bilateral,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS033,Nodule location side,Right,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS034,Mass location side,Left,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS035,Liver lesion location side,Right,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS036,Nodule contrast enhancement,Mild,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS036,Nodule contrast enhancement,None_NoEnhancement,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS037,Mass contrast enhancement,Moderate,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS038,Liver lesion contrast enhancement,Marked,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS039,Nodule tumor type,Benign,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS040,Mass tumor type,Malignant,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS041,Liver lesion tumor type,Metastatic,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS042,Bone lesion tumor type,Metastatic,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS043,Nodule severity,Mild,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS043,Nodule severity,Minimal,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS044,Mass severity,Severe,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS045,Pleural effusion severity,Mild,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS045,Pleural effusion severity,Moderate,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS046,Ascites severity,Mild,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS047,Nodule size qualitative,Small,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS047,Nodule size qualitative,Very_small,,ct_observations.csv,unknown,PAT003,2024-01-25
+OBS048,Mass size qualitative,Large,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS049,Liver lesion size qualitative,Medium,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS050,Reconstruction algorithm,Standard,,ct_observations.csv,unknown,PAT001,2024-01-15
+OBS050,Reconstruction algorithm,High resolution,,ct_observations.csv,unknown,PAT002,2024-01-20
+OBS050,Reconstruction algorithm,Standard,,ct_observations.csv,unknown,PAT003,2024-01-25

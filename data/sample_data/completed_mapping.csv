@@ -1,0 +1,82 @@
+pydantic_field,pydantic_type,evaluation_method,multiValue_handling_method,pydantic_value,Observation_ColName,Observation_Value,Observation_Value2,Observation_Value3,Observation_Value4,notes
+patient_id,str,smart_exact_match,first,,patient_id,,,,,Direct mapping from patient ID column
+scan_date,str,smart_exact_match,first,,scan_date,,,,,Direct mapping from scan date
+scan_type,str,smart_exact_match,first,,observation_value,Chest CT with contrast,Chest abdomen pelvis CT,Chest CT without contrast,,Maps scan type descriptions from observations
+thoracic_findings::pulmonary_nodules::present,DiseasePresence,smart_exact_match,first,Present,observation_value,Present,present,Yes,yes,Maps nodule presence from observation OBS001
+thoracic_findings::pulmonary_nodules::present,DiseasePresence,smart_exact_match,first,Absent,observation_value,Absent,absent,No,no,Maps nodule absence from observation OBS001
+thoracic_findings::pulmonary_nodules::present,DiseasePresence,smart_exact_match,first,Suspected,observation_value,Suspected,suspected,Possible,possible,Maps suspected nodules from observation OBS001
+thoracic_findings::pulmonary_nodules::present,DiseasePresence,smart_exact_match,first,Cannot_be_determined,observation_value,Cannot be determined,Unknown,Indeterminate,,Maps uncertain nodule status
+thoracic_findings::pulmonary_nodules::count,int,smart_exact_match,first,,observation_value,,,,,Direct numeric mapping from observation OBS002
+thoracic_findings::pulmonary_nodules::calcification_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps calcification presence from observation OBS003
+thoracic_findings::pulmonary_nodules::calcification_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps calcification absence from observation OBS003
+thoracic_findings::pulmonary_nodules::largest_nodule_size_mm::value,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurement MEAS001
+thoracic_findings::pulmonary_nodules::largest_nodule_size_mm::unit,str,smart_exact_match,first,mm,measurement_unit,mm,millimeters,millimeter,,Maps unit from measurements dict or defaults to mm
+thoracic_findings::pulmonary_nodules::characteristics::size_qualitative,QualitativeSize,smart_exact_match,first,Very_small,observation_value,Very small,very small,Very_small,,Maps qualitative size from observation OBS047
+thoracic_findings::pulmonary_nodules::characteristics::size_qualitative,QualitativeSize,smart_exact_match,first,Small,observation_value,Small,small,,,Maps qualitative size from observation OBS047
+thoracic_findings::pulmonary_nodules::characteristics::size_qualitative,QualitativeSize,smart_exact_match,first,Medium,observation_value,Medium,medium,moderate,,Maps qualitative size from observation OBS047
+thoracic_findings::pulmonary_nodules::characteristics::size_qualitative,QualitativeSize,smart_exact_match,first,Large,observation_value,Large,large,big,,Maps qualitative size from observation OBS047
+thoracic_findings::pulmonary_nodules::characteristics::location_side,LocationSide,smart_exact_match,first,Right,observation_value,Right,right,R,,Maps location side from observation OBS033
+thoracic_findings::pulmonary_nodules::characteristics::location_side,LocationSide,smart_exact_match,first,Left,observation_value,Left,left,L,,Maps location side from observation OBS033
+thoracic_findings::pulmonary_nodules::characteristics::location_side,LocationSide,smart_exact_match,first,Bilateral,observation_value,Bilateral,bilateral,Both,both,Maps bilateral location from observation OBS033
+thoracic_findings::pulmonary_nodules::characteristics::contrast_enhancement,ContrastEnhancement,smart_exact_match,first,None_NoEnhancement,observation_value,None,No enhancement,None_NoEnhancement,,Maps no enhancement from observation OBS036
+thoracic_findings::pulmonary_nodules::characteristics::contrast_enhancement,ContrastEnhancement,smart_exact_match,first,Mild,observation_value,Mild,mild,,,Maps mild enhancement from observation OBS036
+thoracic_findings::pulmonary_nodules::characteristics::contrast_enhancement,ContrastEnhancement,smart_exact_match,first,Moderate,observation_value,Moderate,moderate,,,Maps moderate enhancement from observation OBS036
+thoracic_findings::pulmonary_mass::present,DiseasePresence,smart_exact_match,first,Present,observation_value,Present,present,Yes,yes,Maps mass presence from observation OBS004
+thoracic_findings::pulmonary_mass::present,DiseasePresence,smart_exact_match,first,Absent,observation_value,Absent,absent,No,no,Maps mass absence from observation OBS004
+thoracic_findings::pulmonary_mass::tumor_type,TumorType,smart_exact_match,first,Benign,observation_value,Benign,benign,,,Maps tumor type from observation OBS040
+thoracic_findings::pulmonary_mass::tumor_type,TumorType,smart_exact_match,first,Malignant,observation_value,Malignant,malignant,,,Maps tumor type from observation OBS040
+thoracic_findings::pulmonary_mass::tumor_type,TumorType,smart_exact_match,first,Metastatic,observation_value,Metastatic,metastatic,Mets,mets,Maps metastatic type from observation OBS040
+thoracic_findings::pulmonary_mass::cavitation_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps cavitation presence from observation OBS005
+thoracic_findings::pulmonary_mass::cavitation_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps cavitation absence from observation OBS005
+thoracic_findings::pulmonary_mass::necrosis_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps necrosis presence from observation OBS006
+thoracic_findings::pulmonary_mass::necrosis_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps necrosis absence from observation OBS006
+thoracic_findings::pulmonary_mass::characteristics::size_mm::value,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurements MEAS004-006
+thoracic_findings::pulmonary_mass::characteristics::size_qualitative,QualitativeSize,smart_exact_match,first,Large,observation_value,Large,large,big,,Maps qualitative mass size from observation OBS048
+thoracic_findings::pleural_effusion::present,DiseasePresence,smart_exact_match,first,Present,observation_value,Present,present,Yes,yes,Maps effusion presence from observation OBS007
+thoracic_findings::pleural_effusion::present,DiseasePresence,smart_exact_match,first,Absent,observation_value,Absent,absent,No,no,Maps effusion absence from observation OBS007
+thoracic_findings::pleural_effusion::location_side,LocationSide,smart_exact_match,first,Right,observation_value,Right,right,R,,Maps effusion side from observation OBS008
+thoracic_findings::pleural_effusion::location_side,LocationSide,smart_exact_match,first,Left,observation_value,Left,left,L,,Maps effusion side from observation OBS008
+thoracic_findings::pleural_effusion::severity,SeverityScale,smart_exact_match,first,Mild,observation_value,Mild,mild,,,Maps effusion severity from observation OBS045
+thoracic_findings::pleural_effusion::severity,SeverityScale,smart_exact_match,first,Moderate,observation_value,Moderate,moderate,,,Maps effusion severity from observation OBS045
+thoracic_findings::pleural_effusion::severity,SeverityScale,smart_exact_match,first,Severe,observation_value,Severe,severe,,,Maps effusion severity from observation OBS045
+thoracic_findings::pleural_effusion::volume_estimate_ml::value,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurement MEAS007
+thoracic_findings::pleural_effusion::volume_estimate_ml::unit,str,smart_exact_match,first,ml,measurement_unit,ml,milliliters,mL,,Maps volume unit from measurements dict
+thoracic_findings::pleural_effusion::loculated,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps loculated status from observation OBS009
+thoracic_findings::pleural_effusion::loculated,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps loculated status from observation OBS009
+thoracic_findings::mediastinal_lymphadenopathy,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps mediastinal lymphadenopathy from observation OBS015
+thoracic_findings::mediastinal_lymphadenopathy,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps mediastinal lymphadenopathy from observation OBS015
+thoracic_findings::pneumothorax_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps pneumothorax from observation OBS016
+thoracic_findings::pneumothorax_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps pneumothorax from observation OBS016
+abdominal_findings::liver_lesions::present,DiseasePresence,smart_exact_match,first,Present,observation_value,Present,present,Yes,yes,Maps liver lesion presence from observation OBS010
+abdominal_findings::liver_lesions::present,DiseasePresence,smart_exact_match,first,Absent,observation_value,Absent,absent,No,no,Maps liver lesion absence from observation OBS010
+abdominal_findings::liver_lesions::lesion_count,int,smart_exact_match,first,,observation_value,,,,,Direct numeric mapping from observation OBS011
+abdominal_findings::liver_lesions::segment_location,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS012
+abdominal_findings::liver_lesions::characteristics::size_mm::value,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurements MEAS009-011
+abdominal_findings::liver_lesions::tumor_type,TumorType,smart_exact_match,first,Metastatic,observation_value,Metastatic,metastatic,Mets,mets,Maps liver lesion type from observation OBS041
+abdominal_findings::ascites_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps ascites presence from observation OBS013
+abdominal_findings::ascites_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps ascites absence from observation OBS013
+abdominal_findings::ascites_severity,SeverityScale,smart_exact_match,first,Mild,observation_value,Mild,mild,,,Maps ascites severity from observation OBS046
+abdominal_findings::lymphadenopathy_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps lymphadenopathy from observation OBS014
+abdominal_findings::lymphadenopathy_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps lymphadenopathy from observation OBS014
+abdominal_findings::largest_lymph_node_mm::value,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurement MEAS008
+abdominal_findings::largest_lymph_node_mm::unit,str,smart_exact_match,first,mm,measurement_unit,mm,millimeters,millimeter,,Maps unit from measurements dict
+bone_findings::bone_lesions_present,DiseasePresence,smart_exact_match,first,Present,observation_value,Present,present,Yes,yes,Maps bone lesion presence from observation OBS017
+bone_findings::bone_lesions_present,DiseasePresence,smart_exact_match,first,Absent,observation_value,Absent,absent,No,no,Maps bone lesion absence from observation OBS017
+bone_findings::lesion_count,int,smart_exact_match,first,,observation_value,,,,,Direct numeric mapping from observation OBS018
+bone_findings::tumor_type,TumorType,smart_exact_match,first,Metastatic,observation_value,Metastatic,metastatic,Mets,mets,Maps bone lesion type from observation OBS042
+bone_findings::fracture_present,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps fracture presence from observation OBS019
+bone_findings::fracture_present,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps fracture absence from observation OBS019
+bone_findings::location_description,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS020
+overall_impression,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS027
+primary_diagnosis,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS026
+recommended_followup,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS028
+technical_quality::contrast_administered,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps contrast administration from observation OBS021
+technical_quality::contrast_administered,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps contrast administration from observation OBS021
+technical_quality::image_quality,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS023
+technical_quality::motion_artifacts,bool,smart_exact_match,first,True,observation_value,Yes,yes,Y,positive,Maps motion artifacts from observation OBS022
+technical_quality::motion_artifacts,bool,smart_exact_match,first,False,observation_value,No,no,N,negative,Maps motion artifacts from observation OBS022
+technical_quality::slice_thickness_mm,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurement MEAS013
+technical_quality::reconstruction_algorithm,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS050
+age_at_scan,int,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurement MEAS012
+clinical_indication,str,smart_exact_match,first,,observation_value,,,,,Direct text mapping from observation OBS025
+radiologist_confidence,float,smart_exact_match,first,,measurement_value,,,,,Direct numeric mapping from measurement MEAS014 (0-1 scale)

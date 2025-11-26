@@ -1,0 +1,21 @@
+measurement_code,measurement_name,unit
+MEAS001,Largest nodule size,mm
+MEAS002,Nodule size dimension 1,mm
+MEAS003,Nodule size dimension 2,mm
+MEAS004,Mass size dimension 1,mm
+MEAS005,Mass size dimension 2,mm
+MEAS006,Mass size dimension 3,mm
+MEAS007,Pleural effusion volume estimate,ml
+MEAS008,Largest lymph node size,mm
+MEAS009,Liver lesion size,mm
+MEAS010,Liver lesion dimension 1,mm
+MEAS011,Liver lesion dimension 2,mm
+MEAS012,Patient age at scan,years
+MEAS013,CT slice thickness,mm
+MEAS014,Radiologist confidence score,ratio
+MEAS015,Nodule contrast value,HU
+MEAS016,Mass contrast value,HU
+MEAS017,Liver lesion contrast value,HU
+MEAS018,Bone lesion size,mm
+MEAS019,Bone lesion dimension 1,mm
+MEAS020,Bone lesion dimension 2,mm

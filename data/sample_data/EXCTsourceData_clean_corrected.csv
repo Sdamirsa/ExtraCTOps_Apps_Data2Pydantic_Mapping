@@ -1,0 +1,78 @@
+patient_id,observation_name,observation_value,scan_date
+PAT001,patient_id,PAT001,2024-01-15
+PAT001,scan_date,2024-01-15,2024-01-15
+PAT001,observation_value,Present,2024-01-15
+PAT001,observation_value,3,2024-01-15
+PAT001,observation_value,No,2024-01-15
+PAT001,observation_value,Absent,2024-01-15
+PAT001,observation_value,Present,2024-01-15
+PAT001,observation_value,Right,2024-01-15
+PAT001,observation_value,No,2024-01-15
+PAT001,observation_value,Absent,2024-01-15
+PAT001,observation_value,No,2024-01-15
+PAT001,observation_value,Low,2024-01-15
+PAT001,observation_value,6,2024-01-15
+PAT001,observation_value,Left upper lobe,2024-01-15
+PAT001,observation_value,Irregular,2024-01-15
+PAT001,observation_value,Low,2024-01-15
+PAT001,observation_value,Present,2024-01-15
+PAT001,observation_value,Hilar lymph nodes,2024-01-15
+PAT001,observation_value,Moderate,2024-01-15
+PAT001,observation_value,No,2024-01-15
+PAT001,observation_value,No,2024-01-15
+PAT001,observation_value,No,2024-01-15
+PAT001,observation_value,Chest CT with contrast,2024-01-15
+PAT001,observation_value,8.5,2024-01-15
+PAT001,observation_value,6.2,2024-01-15
+PAT001,observation_value,7.8,2024-01-15
+PAT001,observation_value,12.3,2024-01-15
+PAT001,observation_value,67,2024-01-15
+PAT001,observation_value,1.25,2024-01-15
+PAT001,observation_value,0.85,2024-01-15
+PAT001,observation_value,45,2024-01-15
+PAT001,observation_value,150,2024-01-15
+PAT002,patient_id,PAT002,2024-01-20
+PAT002,scan_date,2024-01-20,2024-01-20
+PAT002,observation_value,Present,2024-01-20
+PAT002,observation_value,1,2024-01-20
+PAT002,observation_value,Yes,2024-01-20
+PAT002,observation_value,Present,2024-01-20
+PAT002,observation_value,Large,2024-01-20
+PAT002,observation_value,Solid,2024-01-20
+PAT002,observation_value,Absent,2024-01-20
+PAT002,observation_value,Moderate,2024-01-20
+PAT002,observation_value,Yes,2024-01-20
+PAT002,observation_value,Right middle lobe,2024-01-20
+PAT002,observation_value,Lobulated,2024-01-20
+PAT002,observation_value,High,2024-01-20
+PAT002,observation_value,Chest abdomen pelvis CT,2024-01-20
+PAT002,observation_value,45.2,2024-01-20
+PAT002,observation_value,38.7,2024-01-20
+PAT002,observation_value,52.1,2024-01-20
+PAT002,observation_value,89.3,2024-01-20
+PAT002,observation_value,76.4,2024-01-20
+PAT002,observation_value,68.9,2024-01-20
+PAT003,patient_id,PAT003,2024-01-25
+PAT003,scan_date,2024-01-25,2024-01-25
+PAT003,observation_value,Suspected,2024-01-25
+PAT003,observation_value,2,2024-01-25
+PAT003,observation_value,No,2024-01-25
+PAT003,observation_value,Absent,2024-01-25
+PAT003,observation_value,Present,2024-01-25
+PAT003,observation_value,Bilateral,2024-01-25
+PAT003,observation_value,No,2024-01-25
+PAT003,observation_value,Absent,2024-01-25
+PAT003,observation_value,Yes,2024-01-25
+PAT003,observation_value,Medium,2024-01-25
+PAT003,observation_value,4,2024-01-25
+PAT003,observation_value,Bilateral lower lobes,2024-01-25
+PAT003,observation_value,Round,2024-01-25
+PAT003,observation_value,Medium,2024-01-25
+PAT003,observation_value,Absent,2024-01-25
+PAT003,observation_value,Yes,2024-01-25
+PAT003,observation_value,No,2024-01-25
+PAT003,observation_value,Yes,2024-01-25
+PAT003,observation_value,Chest CT without contrast,2024-01-25
+PAT003,observation_value,4.2,2024-01-25
+PAT003,observation_value,3.8,2024-01-25
+PAT003,observation_value,4.5,2024-01-25

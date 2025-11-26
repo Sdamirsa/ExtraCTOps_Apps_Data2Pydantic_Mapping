@@ -37,9 +37,34 @@ Data2Pydantic is a specialized tool designed to bridge the gap between unstructu
 
 ## 🚀 Quick Start
 
-### For Non-Developers (Easy Setup)
+### Automatic Setup (Recommended) ✨
 
-#### Windows Users:
+We provide an automated setup script that handles everything for you:
+
+```bash
+# Download/clone the repository first, then:
+python setup.py
+```
+
+This script will:
+- ✅ Check your Python version (3.8+ required)
+- ✅ Create a virtual environment
+- ✅ Install all dependencies
+- ✅ Create run scripts for your OS
+- ✅ Set up configuration files
+- ✅ Test the installation
+
+After setup completes:
+- **Windows**: Double-click `run.bat` or run `.\run.bat`
+- **Mac/Linux**: Manually activate the virtual environment (see instructions below)
+
+The app will open at http://localhost:8501
+
+### Manual Setup
+
+#### For Non-Developers
+
+##### Windows Users:
 
 1. **Install Python**
    ```
@@ -54,14 +79,13 @@ Data2Pydantic is a specialized tool designed to bridge the gap between unstructu
    - Extract to your Desktop
    ```
 
-3. **Install & Run**
+3. **Run Setup**
    ```cmd
    cd Desktop\data2pydantic-tool
-   pip install -r requirements.txt
-   streamlit run app.py
+   python setup.py
    ```
 
-#### Mac/Linux Users:
+##### Mac/Linux Users:
 
 1. **Install Python** (if not already installed)
    ```bash
@@ -73,26 +97,26 @@ Data2Pydantic is a specialized tool designed to bridge the gap between unstructu
    sudo apt install python3 python3-pip
    ```
 
-2. **Download and Run**
+2. **Download and Setup**
    ```bash
    git clone <repository-url>
    cd data2pydantic-tool
-   pip3 install -r requirements.txt
-   streamlit run app.py
+   python3 setup.py
    ```
 
-### For Developers
+#### For Developers
 
 ```bash
 # Clone repository
 git clone <repository-url>
 cd data2pydantic-tool
 
-# Create virtual environment
+# Option 1: Use automatic setup
+python setup.py
+
+# Option 2: Manual setup
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
 pip install -r requirements.txt
 
 # Run the application
